@@ -1,9 +1,33 @@
 {
     
     "compilerOptions": {
-        "strict": true
+        "strict": true,
+        "lib":["es2019","es2020","esnext"],
+        "noImplicitAny": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noUncheckedIndexedAccess": true
     },
     "include":[
         "src/**/*"
     ]
 }
+
+/**
+{
+    "compilerOptions": {
+      "strict": true,
+      "noImplicitAny": true,
+      "noUnusedParameters": true,
+      "noUnusedLocals": true,
+      "noUncheckedIndexedAccess": true
+    },
+    "include": [
+*/
+//      "packages/**/*"
+/**    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+*/
